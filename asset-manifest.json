@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/Fitness-Club/static/css/main.41544343.css",
+    "main.js": "/Fitness-Club/static/js/main.80c90aaf.js",
+    "static/media/hero_image.png": "/Fitness-Club/static/media/hero_image.e19ac0c6b1009c7280f5.png",
+    "static/media/fa-solid-900.ttf": "/Fitness-Club/static/media/fa-solid-900.45a265d0f07b31cde85f.ttf",
+    "static/media/t-image1.png": "/Fitness-Club/static/media/t-image1.c16c2c261034cf78ee57.png",
+    "static/media/image1.png": "/Fitness-Club/static/media/image1.1091417d32e491f0bbb6.png",
+    "static/media/image2.png": "/Fitness-Club/static/media/image2.82da8b2725df896d8a8e.png",
+    "static/media/fa-brands-400.ttf": "/Fitness-Club/static/media/fa-brands-400.6205fd00fb1b573e9f0f.ttf",
+    "static/media/fa-solid-900.woff2": "/Fitness-Club/static/media/fa-solid-900.fb8184add5a3101ad0a3.woff2",
+    "static/media/fa-brands-400.woff2": "/Fitness-Club/static/media/fa-brands-400.8d3cabfc66809162fb4d.woff2",
+    "static/media/t-image3.jpg": "/Fitness-Club/static/media/t-image3.3894413f7bf2b4f1fc54.jpg",
+    "static/media/image3.png": "/Fitness-Club/static/media/image3.69484cb0ee7687a8c28b.png",
+    "static/media/image4.png": "/Fitness-Club/static/media/image4.2c0d30b9ce1579eb1109.png",
+    "static/media/t-image2.jpg": "/Fitness-Club/static/media/t-image2.f5d2e52e514c544dfffb.jpg",
+    "static/media/fa-regular-400.ttf": "/Fitness-Club/static/media/fa-regular-400.adc51aab4d771ab65f81.ttf",
+    "static/media/fa-regular-400.woff2": "/Fitness-Club/static/media/fa-regular-400.e931bc0d14f5bbb1da22.woff2",
+    "static/media/hero_image_back.png": "/Fitness-Club/static/media/hero_image_back.9f54bfba33048f4ca688.png",
+    "static/media/fa-v4compatibility.ttf": "/Fitness-Club/static/media/fa-v4compatibility.2eb7b3ef25042305f3ff.ttf",
+    "static/media/fa-v4compatibility.woff2": "/Fitness-Club/static/media/fa-v4compatibility.b3049b13a93f07e026fc.woff2",
+    "index.html": "/Fitness-Club/index.html",
+    "main.41544343.css.map": "/Fitness-Club/static/css/main.41544343.css.map",
+    "main.80c90aaf.js.map": "/Fitness-Club/static/js/main.80c90aaf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.41544343.css",
+    "static/js/main.80c90aaf.js"
+  ]
+}
