@@ -19,25 +19,42 @@
 }
 
 .bars{
-    width: 2.5rem;
-    background-color: var(--appColor);
-    padding: 0.5rem;
+    display: none;
+
 }
 
-.bars>img{
-    width: 100%;
-}
 
 @media screen and (max-width : 768px){
     .header>:nth-child(2){
         position: fixed;
         right: 2rem;
         z-index: 99;
+        box-shadow: 1px 1px 10px var(--orange);
     }
 
     .header_menu{
         flex-direction: column;
         background-color: var(--appColor);
         padding: 2rem;
+        position: fixed;
+        z-index: 546;
+        right: 60px;
+        top: 50px;
+        box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.444);
     }
+
+    .bars{
+        width: 2.5rem;
+        background-color: var(--appColor);
+        padding: 0.5rem;
+        position: fixed;
+        right: 20px;
+        z-index: 456;
+        display: block;
+    }
+    
+    .bars>img{
+        width: 100%;
+    }
+    
 }

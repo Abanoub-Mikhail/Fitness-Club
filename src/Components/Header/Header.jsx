@@ -14,10 +14,15 @@ export default function Header() {
     <div className="header">
         <img src={logo} alt="logo" className='logo' />
         {menuOpened===false && mobile === true ?(
-        <div className='bars' onClick={()=>setMenuOpened(true)}>
+        <div className='bars' onClick={()=>{
+          menuOpened == false ?  setMenuOpened(true) :  setMenuOpened(false)}}>
           <img src={bars} alt="baricon" />
         </div> 
-      ):(
+      ):(<>
+        <div className='bars' onClick={()=>{
+          menuOpened == false ?  setMenuOpened(true) :  setMenuOpened(false)}}>
+          <img src={bars} alt="baricon" />
+        </div> 
           <ul className='header_menu'>
             <li ><Link to='home' onClick={()=> setMenuOpened(false)} span={true} smooth={true}>Home</Link></li>
             <li ><Link to='programs' onClick={()=> setMenuOpened(false)} span={true} smooth={true}>Programs</Link></li>
@@ -25,7 +30,9 @@ export default function Header() {
             <li ><Link to='plans' onClick={()=> setMenuOpened(false)} span={true} smooth={true}>Plans</Link></li>
             <li ><Link to='testimonials' onClick={()=> setMenuOpened(false)} span={true} smooth={true}>Testimonials</Link></li>
         </ul>
+         </>
       )}
+     
 
         
     </div>
